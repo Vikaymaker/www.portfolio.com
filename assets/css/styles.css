@@ -1,0 +1,48 @@
+/* Certificate Slider Styles */
+.slider {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    margin: 0 auto; /* Centers the slider horizontally */
+}
+
+  
+  .slider-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .certificate {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .certificate img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .certificate h2 {
+    font-size: 1.5em;
+    color: #fff;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideIn {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+  }
+  
+  .slider-inner .certificate {
+    animation: fadeIn 1s, slideIn 1s;
+  }
+  
