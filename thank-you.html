@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Mail Has Been Sent Successfully</title>
+    <!-- Latest Bootstrap min CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            margin: 0;
+            padding: 0;
+			align-items: center;
+            justify-content: center;
+        }
+
+        /* Welcome Area */
+        .welcome-area {
+            position: relative;
+            height: 100vh;
+            background-image: url('assets/img/tq.webp');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .welcome-area:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .hero-text {
+            padding: 60px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            max-width: 600px;
+            margin: 0 auto;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .hero-text h1 {
+            color: #08d665;
+            font-size: 48px;
+            font-weight: 600;
+            margin-bottom: 30px;
+            text-transform: capitalize;
+        }
+
+        .back-home {
+            display: inline-block;
+            background: #0454af;
+            border: 2px solid #0a6c99;
+            color: #fff;
+            font-weight: 600;
+            padding: 12px 36px;
+            border-radius: 30px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .back-home:hover,
+        .back-home:focus {
+            background: #556df4;
+            border-color: #556df4;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+<section class="welcome-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+                <div class="hero-text">
+                    <h1>Your Mail Has Been Sent Successfully</h1>
+                    <a class="back-home" href="index.html">Back to Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Latest jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- Latest compiled and minified Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
