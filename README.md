@@ -7,6 +7,6 @@ The site is built with a clean, modern layout with a contact form that redirects
 
 ## 🚀 Live Demo
 You can view the live deployed version here :  
-🔗 `[https://www.portfolio.com](https://vikaymaker.github.io/www.portfolio.com)`
+🔗 `(https://vikaymaker.github.io/www.portfolio.com)`
 
 ---
